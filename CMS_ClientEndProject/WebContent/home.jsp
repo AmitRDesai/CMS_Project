@@ -127,6 +127,7 @@
 				name="action" value="login">
 			<div id="message"></div>
 			<button id="login_button">Submit</button>
+			<button type="reset">Reset</button>
 			<p class="message">
 				Not registered? <a href="#reg">Create an account</a>
 			</p>
