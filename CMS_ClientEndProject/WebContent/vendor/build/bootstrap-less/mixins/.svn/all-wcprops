@@ -1,0 +1,185 @@
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/CHN16/!svn/ver/3019/M93/CMS%20Project%20MJA93/CMS_ClientEndProject/WebContent/vendor/build/bootstrap-less/mixins
+END
+size.less
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/CHN16/!svn/ver/3019/M93/CMS%20Project%20MJA93/CMS_ClientEndProject/WebContent/vendor/build/bootstrap-less/mixins/size.less
+END
+grid-framework.less
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/CHN16/!svn/ver/3019/M93/CMS%20Project%20MJA93/CMS_ClientEndProject/WebContent/vendor/build/bootstrap-less/mixins/grid-framework.less
+END
+gradients.less
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/CHN16/!svn/ver/3019/M93/CMS%20Project%20MJA93/CMS_ClientEndProject/WebContent/vendor/build/bootstrap-less/mixins/gradients.less
+END
+vendor-prefixes.less
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/CHN16/!svn/ver/3019/M93/CMS%20Project%20MJA93/CMS_ClientEndProject/WebContent/vendor/build/bootstrap-less/mixins/vendor-prefixes.less
+END
+background-variant.less
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/CHN16/!svn/ver/3019/M93/CMS%20Project%20MJA93/CMS_ClientEndProject/WebContent/vendor/build/bootstrap-less/mixins/background-variant.less
+END
+image.less
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/CHN16/!svn/ver/3019/M93/CMS%20Project%20MJA93/CMS_ClientEndProject/WebContent/vendor/build/bootstrap-less/mixins/image.less
+END
+panels.less
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/CHN16/!svn/ver/3019/M93/CMS%20Project%20MJA93/CMS_ClientEndProject/WebContent/vendor/build/bootstrap-less/mixins/panels.less
+END
+responsive-visibility.less
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/CHN16/!svn/ver/3019/M93/CMS%20Project%20MJA93/CMS_ClientEndProject/WebContent/vendor/build/bootstrap-less/mixins/responsive-visibility.less
+END
+nav-vertical-align.less
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/CHN16/!svn/ver/3019/M93/CMS%20Project%20MJA93/CMS_ClientEndProject/WebContent/vendor/build/bootstrap-less/mixins/nav-vertical-align.less
+END
+tab-focus.less
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/CHN16/!svn/ver/3019/M93/CMS%20Project%20MJA93/CMS_ClientEndProject/WebContent/vendor/build/bootstrap-less/mixins/tab-focus.less
+END
+grid.less
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/CHN16/!svn/ver/3019/M93/CMS%20Project%20MJA93/CMS_ClientEndProject/WebContent/vendor/build/bootstrap-less/mixins/grid.less
+END
+text-overflow.less
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/CHN16/!svn/ver/3019/M93/CMS%20Project%20MJA93/CMS_ClientEndProject/WebContent/vendor/build/bootstrap-less/mixins/text-overflow.less
+END
+forms.less
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/CHN16/!svn/ver/3019/M93/CMS%20Project%20MJA93/CMS_ClientEndProject/WebContent/vendor/build/bootstrap-less/mixins/forms.less
+END
+pagination.less
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/CHN16/!svn/ver/3019/M93/CMS%20Project%20MJA93/CMS_ClientEndProject/WebContent/vendor/build/bootstrap-less/mixins/pagination.less
+END
+alerts.less
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/CHN16/!svn/ver/3019/M93/CMS%20Project%20MJA93/CMS_ClientEndProject/WebContent/vendor/build/bootstrap-less/mixins/alerts.less
+END
+hide-text.less
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/CHN16/!svn/ver/3019/M93/CMS%20Project%20MJA93/CMS_ClientEndProject/WebContent/vendor/build/bootstrap-less/mixins/hide-text.less
+END
+text-emphasis.less
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/CHN16/!svn/ver/3019/M93/CMS%20Project%20MJA93/CMS_ClientEndProject/WebContent/vendor/build/bootstrap-less/mixins/text-emphasis.less
+END
+table-row.less
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/CHN16/!svn/ver/3019/M93/CMS%20Project%20MJA93/CMS_ClientEndProject/WebContent/vendor/build/bootstrap-less/mixins/table-row.less
+END
+clearfix.less
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/CHN16/!svn/ver/3019/M93/CMS%20Project%20MJA93/CMS_ClientEndProject/WebContent/vendor/build/bootstrap-less/mixins/clearfix.less
+END
+buttons.less
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/CHN16/!svn/ver/3019/M93/CMS%20Project%20MJA93/CMS_ClientEndProject/WebContent/vendor/build/bootstrap-less/mixins/buttons.less
+END
+resize.less
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/CHN16/!svn/ver/3019/M93/CMS%20Project%20MJA93/CMS_ClientEndProject/WebContent/vendor/build/bootstrap-less/mixins/resize.less
+END
+labels.less
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/CHN16/!svn/ver/3019/M93/CMS%20Project%20MJA93/CMS_ClientEndProject/WebContent/vendor/build/bootstrap-less/mixins/labels.less
+END
+border-radius.less
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/CHN16/!svn/ver/3019/M93/CMS%20Project%20MJA93/CMS_ClientEndProject/WebContent/vendor/build/bootstrap-less/mixins/border-radius.less
+END
+reset-text.less
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/CHN16/!svn/ver/3019/M93/CMS%20Project%20MJA93/CMS_ClientEndProject/WebContent/vendor/build/bootstrap-less/mixins/reset-text.less
+END
+list-group.less
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/CHN16/!svn/ver/3019/M93/CMS%20Project%20MJA93/CMS_ClientEndProject/WebContent/vendor/build/bootstrap-less/mixins/list-group.less
+END
+reset-filter.less
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/CHN16/!svn/ver/3019/M93/CMS%20Project%20MJA93/CMS_ClientEndProject/WebContent/vendor/build/bootstrap-less/mixins/reset-filter.less
+END
+progress-bar.less
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/CHN16/!svn/ver/3019/M93/CMS%20Project%20MJA93/CMS_ClientEndProject/WebContent/vendor/build/bootstrap-less/mixins/progress-bar.less
+END
+nav-divider.less
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/CHN16/!svn/ver/3019/M93/CMS%20Project%20MJA93/CMS_ClientEndProject/WebContent/vendor/build/bootstrap-less/mixins/nav-divider.less
+END
+center-block.less
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/CHN16/!svn/ver/3019/M93/CMS%20Project%20MJA93/CMS_ClientEndProject/WebContent/vendor/build/bootstrap-less/mixins/center-block.less
+END
+opacity.less
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/CHN16/!svn/ver/3019/M93/CMS%20Project%20MJA93/CMS_ClientEndProject/WebContent/vendor/build/bootstrap-less/mixins/opacity.less
+END

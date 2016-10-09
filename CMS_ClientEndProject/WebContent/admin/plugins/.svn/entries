@@ -1,0 +1,100 @@
+9
+
+dir
+3951
+http://inchnilpdb02.india.tcs.com:81/svn/CHN16/M93/CMS%20Project%20MJA93/CMS_ClientEndProject/WebContent/admin/plugins
+http://inchnilpdb02.india.tcs.com:81/svn/CHN16
+
+
+
+2016-10-06T04:28:31.871001Z
+3133
+1205674
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+87216578-f71b-df4b-9dfe-ece1e2e4be79
+
+jQuery
+dir
+
+bootstrap-wysihtml5
+dir
+
+slimScroll
+dir
+
+iCheck
+dir
+
+ionslider
+dir
+
+input-mask
+dir
+
+daterangepicker
+dir
+
+sparkline
+dir
+
+knob
+dir
+
+fullcalendar
+dir
+
+timepicker
+dir
+
+bootstrap-slider
+dir
+
+chartjs
+dir
+
+select2
+dir
+
+fastclick
+dir
+
+flot
+dir
+
+datatables
+dir
+
+ckeditor
+dir
+
+pace
+dir
+
+jvectormap
+dir
+
+datepicker
+dir
+
+morris
+dir
+
+colorpicker
+dir
+
+jQueryUI
+dir
+

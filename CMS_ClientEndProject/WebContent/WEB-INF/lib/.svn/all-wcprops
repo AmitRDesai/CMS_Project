@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/CHN16/!svn/ver/3148/M93/CMS%20Project%20MJA93/CMS_ClientEndProject/WebContent/WEB-INF/lib
+END
+jsr311-api-1.1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/CHN16/!svn/ver/2911/M93/CMS%20Project%20MJA93/CMS_ClientEndProject/WebContent/WEB-INF/lib/jsr311-api-1.1.1.jar
+END
+jersey-servlet-1.19.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/CHN16/!svn/ver/2911/M93/CMS%20Project%20MJA93/CMS_ClientEndProject/WebContent/WEB-INF/lib/jersey-servlet-1.19.1.jar
+END
+genson-1.4.jar
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/CHN16/!svn/ver/2911/M93/CMS%20Project%20MJA93/CMS_ClientEndProject/WebContent/WEB-INF/lib/genson-1.4.jar
+END
+jersey-server-1.19.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/CHN16/!svn/ver/2911/M93/CMS%20Project%20MJA93/CMS_ClientEndProject/WebContent/WEB-INF/lib/jersey-server-1.19.1.jar
+END
+jstl-impl.jar
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/CHN16/!svn/ver/2912/M93/CMS%20Project%20MJA93/CMS_ClientEndProject/WebContent/WEB-INF/lib/jstl-impl.jar
+END
+servlet-api.jar
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/CHN16/!svn/ver/2727/M93/CMS%20Project%20MJA93/CMS_ClientEndProject/WebContent/WEB-INF/lib/servlet-api.jar
+END
+jersey-core-1.19.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/CHN16/!svn/ver/2911/M93/CMS%20Project%20MJA93/CMS_ClientEndProject/WebContent/WEB-INF/lib/jersey-core-1.19.1.jar
+END
+jettison-1.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/CHN16/!svn/ver/2911/M93/CMS%20Project%20MJA93/CMS_ClientEndProject/WebContent/WEB-INF/lib/jettison-1.1.jar
+END
+jersey-json-1.19.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/CHN16/!svn/ver/2911/M93/CMS%20Project%20MJA93/CMS_ClientEndProject/WebContent/WEB-INF/lib/jersey-json-1.19.1.jar
+END
+classes12.jar
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/CHN16/!svn/ver/3148/M93/CMS%20Project%20MJA93/CMS_ClientEndProject/WebContent/WEB-INF/lib/classes12.jar
+END
+jersey-client-1.19.1.jar
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/CHN16/!svn/ver/2911/M93/CMS%20Project%20MJA93/CMS_ClientEndProject/WebContent/WEB-INF/lib/jersey-client-1.19.1.jar
+END
+jsp-api.jar
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/CHN16/!svn/ver/2727/M93/CMS%20Project%20MJA93/CMS_ClientEndProject/WebContent/WEB-INF/lib/jsp-api.jar
+END
+jstl-api.jar
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/CHN16/!svn/ver/2912/M93/CMS%20Project%20MJA93/CMS_ClientEndProject/WebContent/WEB-INF/lib/jstl-api.jar
+END
