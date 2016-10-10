@@ -87,9 +87,9 @@ http://www.tooplate.com/view/2083-steak-house
                         <li><a href="#" class="opc-main-bg" data-filter=".juice">Juice</a></li>
                     </ul>
 
-					<div class="iso-box-section wow fadeInUp" data-wow-delay="0.9s">
-                      <div class="iso-box-wrapper col4-iso-box">
-					<c:set var="vendors" scope="page"
+					<div  class="iso-box-section wow fadeInUp" data-wow-delay="0.9s">
+                      <div id="vendors" class="iso-box-wrapper col4-iso-box">
+					<%-- <c:set var="vendors" scope="page"
 						value="<%=EmployeeUtil.retriveVendor()%>" />
 					<c:forEach var="vendor" items="${vendors}">
 					
@@ -107,7 +107,7 @@ http://www.tooplate.com/view/2083-steak-house
                         </div>
                         
 					
-					</c:forEach>
+					</c:forEach> --%>
 					</div>
                         </div>
 					
@@ -149,7 +149,7 @@ http://www.tooplate.com/view/2083-steak-house
   <div class="container">
     <div class="row">
 
-      <div class="col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10">
+     <!--  <div class="col-md-offset-2 col-md-8 col-sm-offset-1 col-sm-10">
          <div class="wow fadeInUp section-title" data-wow-delay="0.3s">
             <h2>Meet Our Chefs</h2>
             <h4>we are food specialists</h4>
@@ -206,9 +206,9 @@ http://www.tooplate.com/view/2083-steak-house
             <p>Fusce interdum libero id libero volutpat varius convallis at sem.</p>
             <a href="#" class="btn btn-default hvr-bounce-to-bottom">JOIN US</a>
           </div>
-      </div>
+      </div> -->
 
-      <div class="clearfix"></div>
+      <!-- <div class="clearfix"></div> -->
 
       <div class="wow fadeInUp col-md-6 col-sm-6" data-wow-delay="0.3s">
         <h2>Our Taste</h2>

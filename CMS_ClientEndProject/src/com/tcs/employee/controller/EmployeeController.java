@@ -54,8 +54,11 @@ public class EmployeeController extends HttpServlet {
 		String operation = request.getParameter("operation");
 
 		switch (operation) {
+		case "get_vendors":
+			retriveVendor(request, response);
+			break;
 		case "get_items":
-			retriveItems(request,response);
+			retriveItems(request, response);
 			break;
 
 		case "change_pwd":
@@ -73,15 +76,43 @@ public class EmployeeController extends HttpServlet {
 
 	}
 
+	private void retriveVendor(HttpServletRequest request,
+			HttpServletResponse response) throws ClientHandlerException,
+			UniformInterfaceException, IOException {
+		Client restClient = Client.create();
+		WebResource webResource = restClient.resource(ControllerServlet.url);
+		ClientResponse resp = webResource.path("EmployeeService/displayVendor")
+				.get(ClientResponse.class);
+
+		response.setStatus(resp.getStatus());
+		if (resp.getStatus() == Status.OK.getStatusCode()) {
+			response.setContentType("text/json");
+			response.getWriter().println(
+					new Genson().serialize(resp
+							.getEntity(new GenericType<ArrayList<Vendor>>() {
+							})));
+		} else if (resp.getStatus() == 201) {
+			response.setContentType("text/json");
+			response.getWriter().println(
+					new Genson().serialize(resp.getEntity(ErrorMessage.class)));
+		}else{
+			//redirect to error page
+		}
+
+	}
+
 	private void retriveItems(HttpServletRequest request,
 			HttpServletResponse response) throws IOException {
 		Client restClient = Client.create();
 		WebResource webResource = restClient.resource(ControllerServlet.url);
-		ClientResponse resp = webResource.path("EmployeeService/get_items/"+request.getParameter("v_id"))
+		ClientResponse resp = webResource.path(
+				"EmployeeService/get_items/" + request.getParameter("v_id"))
 				.get(ClientResponse.class);
 		if (resp.getStatus() == Status.OK.getStatusCode()) {
 
-			ArrayList<Item> itemList = resp.getEntity(new GenericType<ArrayList<Item>>(){});
+			ArrayList<Item> itemList = resp
+					.getEntity(new GenericType<ArrayList<Item>>() {
+					});
 			response.setStatus(resp.getStatus());
 			response.setContentType("text/json");
 			response.getWriter().println(new Genson().serialize(itemList));
@@ -94,7 +125,7 @@ public class EmployeeController extends HttpServlet {
 		} else {
 			// redirect to error page
 		}
-		
+
 	}
 
 	private void update(HttpServletRequest request, HttpServletResponse response)
