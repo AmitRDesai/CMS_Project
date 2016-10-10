@@ -200,7 +200,6 @@ public class ControllerServlet extends HttpServlet {
 			session.setAttribute("vendorId", vendor.getV_id());
 			session.setAttribute("vendorName", vendor.getV_name());
 			request.getRequestDispatcher("").forward(request, response);
-
 		} else {
 			response.getWriter().println("Unable to connect to the server.");
 		}
