@@ -24,6 +24,8 @@ import com.tcs.admin.bean.Admin;
 import com.tcs.controller.ControllerServlet;
 import com.tcs.employee.bean.ChangePwd;
 import com.tcs.employee.bean.Employee;
+import com.tcs.employee.bean.ErrorMessage;
+import com.tcs.vendor.bean.Item;
 import com.tcs.vendor.bean.Vendor;
 
 /**
@@ -52,8 +54,8 @@ public class EmployeeController extends HttpServlet {
 		String operation = request.getParameter("operation");
 
 		switch (operation) {
-		case "get_vendor":
-
+		case "get_items":
+			retriveItems(request,response);
 			break;
 
 		case "change_pwd":
@@ -69,6 +71,30 @@ public class EmployeeController extends HttpServlet {
 			break;
 		}
 
+	}
+
+	private void retriveItems(HttpServletRequest request,
+			HttpServletResponse response) throws IOException {
+		Client restClient = Client.create();
+		WebResource webResource = restClient.resource(ControllerServlet.url);
+		ClientResponse resp = webResource.path("EmployeeService/get_items/"+request.getParameter("v_id"))
+				.get(ClientResponse.class);
+		if (resp.getStatus() == Status.OK.getStatusCode()) {
+
+			ArrayList<Item> itemList = resp.getEntity(new GenericType<ArrayList<Item>>(){});
+			response.setStatus(resp.getStatus());
+			response.setContentType("text/json");
+			response.getWriter().println(new Genson().serialize(itemList));
+
+		} else if (resp.getStatus() == 201) {
+			response.setStatus(resp.getStatus());
+			response.setContentType("text/json");
+			ErrorMessage errorMessage = resp.getEntity(ErrorMessage.class);
+			response.getWriter().println(new Genson().serialize(errorMessage));
+		} else {
+			// redirect to error page
+		}
+		
 	}
 
 	private void update(HttpServletRequest request, HttpServletResponse response)

@@ -164,15 +164,20 @@ public class EmployeeService {
 			ArrayList<Item> itemList = dao.getItems(vendorId);
 			System.out.println(itemList);
 			if (itemList != null) {
-				response = Response.status(Status.OK).entity(itemList).build();
+				if(itemList.size()>0){
+					response = Response.status(Status.OK).entity(itemList).build();
+				}
+				else{
+					response = Response.status(201).entity(new ErrorMessage("No items found")).build();
+				}
 			} else {
-				response = Response.status(Status.BAD_REQUEST)
-						.entity("Unable to get items for particular vendor")
+				response = Response.status(Status.CONFLICT)
+						.entity(new ErrorMessage("Some error occurred"))
 						.build();
 			}
 		} catch (ClassNotFoundException | SQLException e) {
 			response = Response.status(Status.CONFLICT)
-					.entity("Some error occurred").build();
+					.entity(new ErrorMessage("Some error occurred")).build();
 		}
 		return response;
 	}
